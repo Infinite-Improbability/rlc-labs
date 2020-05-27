@@ -89,7 +89,7 @@ def tabularise(data):
 # Look over data
 # Calling it Rr so it won't cause bugs if it still floating around somewhere
 # as R. Messy but effective.
-Rr = 1000
+Rr = 100
 data = process_raw(raw_data_100, Rr)
 for point in data:
     print(point)
