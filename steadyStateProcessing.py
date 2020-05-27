@@ -121,7 +121,7 @@ Rr = 100
 if Rr == 100:
     data = process_raw(raw_data_100, Rr)
 elif Rr == 1000:
-    data = process_raw(raw_data_100, Rr)
+    data = process_raw(raw_data_1000, Rr)
 else:
     raise Exception('Invalid resistance')
 # for point in data:
